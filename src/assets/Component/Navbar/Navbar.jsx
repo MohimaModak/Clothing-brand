@@ -16,17 +16,17 @@ export default function Navbar() {
         <div className="md:hidden  sm:block text-sm p-2" onClick={toggleButton}>
           <div className="cursor-pointer">
             <div>
-              <div className="w-8 h-1  bg-red-400"></div>
-              <div className="w-8 h-1 mt-1  bg-red-400"></div>
-              <div className="w-8 h-1 mt-1  bg-red-400"></div>
+              <div className="w-8 h-1  bg-pink-500"></div>
+              <div className="w-8 h-1 mt-1  bg-pink-500"></div>
+              <div className="w-8 h-1 mt-1  bg-pink-500"></div>
             </div>
           </div>
         </div>
       </div>
       <div className={`mobile-menu ${toggle ? "open" : ""}`}>
-        <div className="navbar-links font-bold text-red-400">
+        <div className="navbar-links font-bold text-pink-500">
           <div className="flex items-center justify-center"><img src={logo} className="w-10" />
-            <h1 className="font-bold  text-red-400 text-3xl text-center p-4">Beauty</h1></div>
+            <h1 className="font-bold  text-pink-500 text-3xl text-center p-4">Beauty</h1></div>
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
           </Link>
