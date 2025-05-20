@@ -1,0 +1,45 @@
+.stroke-text {
+    font-weight: bold;
+    /* font-size: 5rem; */
+    text-transform: uppercase;
+
+    /* Glass Effect */
+    background: linear-gradient(to right, rgb(214, 152, 255), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Text Stroke for Depth */
+    -webkit-text-stroke: 1px rgb(255, 223, 135); 
+    
+    /* Glass Reflection */
+    text-shadow: 2px 2px 10px rgb(162, 0, 202), -2px -2px 10px rgba(10, 10, 10, 0);
+    
+    /* Subtle Blur Effect */
+    filter: blur(1px);
+}
+
+
+.ai-text {
+    font-weight: bold;
+    /* font-size: 5rem; */
+    text-transform: uppercase;
+
+    /* Glass Effect */
+    background: linear-gradient(to right, rgb(214, 152, 255), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Text Stroke for Depth */
+    -webkit-text-stroke: 1px rgb(122, 0, 91); 
+    
+    /* Glass Reflection */
+    text-shadow: 2px 2px 10px rgb(255, 218, 55), -2px -2px 10px rgba(10, 10, 10, 0);
+    
+    /* Subtle Blur Effect */
+    filter: blur(1px);
+}
+
+.shadow{
+    text-shadow: 1px 1px  black;
+}
+

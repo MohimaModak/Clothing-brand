@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing Brand</title>
+
+    <!-- Import Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Import Seasons font (example local font-face) -->
+    <style>
+      @font-face {
+        font-family: 'Seasons';
+        src: url('/fonts/Seasons-Regular.woff2') format('woff2'),
+             url('/fonts/Seasons-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      /* Optional: Define font classes */
+      .font-roboto {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .font-seasons {
+        font-family: 'Seasons', cursive, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-roboto">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
